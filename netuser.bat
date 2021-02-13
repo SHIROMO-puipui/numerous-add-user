@@ -1,5 +1,6 @@
 ::windows cmd use not linux
 
+
 set /p n=name:
 ivan
 set /p p=password:
