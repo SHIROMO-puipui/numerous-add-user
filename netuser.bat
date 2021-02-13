@@ -1,3 +1,5 @@
+::windows cmd use not linux
+
 set /p n=name:
 ivan
 set /p p=password:
@@ -12,3 +14,4 @@ net group %g% /add
 FOR /L %a IN (1,1,9) DO net group %g% %n%0%a  /add
 FOR /L %a IN (10,1,%c%) DO net group %g% %n%%a  /add
 pause
+
